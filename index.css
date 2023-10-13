@@ -1,0 +1,831 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Body{
+  width: 100%;
+  height: auto;
+  font-family: 'DM Sans', sans-serif;
+}
+#header_1,#header_13{
+    width: 100%;
+    height: 100vh;
+   
+}
+#header_1, #header_2, #header_3, #header_4, #header_5, #header_6, #header_7, #header_8, #header_9, #header_10, #header_11, #header_12, #header_13, #header_14, #header_15, #header_16, #header_17 {
+  width: 100%;
+  overflow: hidden;
+}
+.material-icons{
+  font-size: 18px;  /* Adjust the value as needed */
+}
+#Startup3{
+  color:  #1E0E62;;
+}
+.nav_1{
+  display: flex;
+  gap: 20rem;
+  height: 18vh;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 5rem;
+  text-align: center;
+  color: #25DAC5;
+}
+.nav1_center_div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.Si_nav1 ,#Si_nav5{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.button1,.button5 {
+  width: 4.5rem;
+  height: 1.8rem;
+  border-radius: 100px;
+  border: none;
+  color: #FFFFFF;
+  background-color:#25DAC5;
+}
+.header_1_Body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  gap: 5rem;
+  margin-top: 3rem;
+  margin-left: 23rem;
+}
+.Title_1{
+  font-size: 3.8rem;
+}
+.Para_1{
+  margin-top: 1rem;
+  width: 480px;
+  text-align: center;
+  margin-left: 3rem;
+  line-height: 2.5;
+  color: #25DAC5;
+  
+}
+.Content_2{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 1rem;
+   color: #25DAC5;
+}
+#Purchase_button1{
+    height: 3rem;
+    width: 280px;
+    background-color: #25DAC5;
+    border-radius: 100px;
+    border: none;
+    font: bold;
+    color: white;
+    font-size: 16px;
+}
+#header_2,#header_12{
+  width: 100%;
+  height: 100vh;
+  /* background-color:red ; */
+  justify-content: space-evenly;
+  background-color:  #2F1893;
+  color: white;
+}
+.nav_2{
+  display: flex;
+  margin-left: 5rem;
+  gap: 45rem;
+  padding: 3rem 0rem;
+}
+.Si_nav2,.Si_nav7{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.button2{
+  width: 5.5rem;
+  height:2rem;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  background-color:#482BE7;
+}
+.header_2_Body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  gap: 5rem;
+  margin-top: 1rem;
+  margin-left: 23rem;
+}
+.Title_2 {
+  font-size:3.5rem;
+  text-align: center;
+}
+.Para_2 {
+  margin-top: 1rem;
+  width: 430px;
+  text-align: center;
+  margin-left: 5rem;
+  line-height: 2;
+  font-weight: normal;  /* Add this line */
+}
+#form_2{
+ width: 500px;
+ height: 15vh;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+#form_2 .Input_2{
+      width: 55%;
+      height: 2.8rem;
+      border-radius: 100px;
+      border: 2px solid blue;
+      outline: none;
+      background-color: transparent;
+}
+.Send_2{
+   width: 5rem;
+   height: 2.8rem;
+   border-radius: 100px;
+   border: none;
+   outline: none;
+   color: white;
+   background-color: #25DAC5;
+}
+#Poppins {
+  color: #25DAC5;
+  font-size: 0.8rem;  /* Decreased font size */
+  font-family: 'Poppins', sans-serif;  /* Specified the Poppins font and a fallback */
+  /* margin-left: 1rem; */
+  font-weight: normal;
+}
+.Nav_left{
+  display: flex;
+  gap: 2rem;
+}
+/* Header3 component */
+#header_3,#header_10{
+  width: 100%;
+  height: 100vh;
+  /* background-color:red ; */
+  justify-content: space-evenly;
+  color:  #1E0E62;
+}
+.header_3_Body{
+  display: flex;
+}
+/* Style for the dropdown */
+#Products3 {
+  color: #25DAC5;
+  font-weight: bolder;
+  cursor: pointer;                 
+  border: transparent; 
+  font-family: 'DM Sans', sans-serif;
+}
+.nav3_center_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  color: #25DAC5;
+  margin-left: 2rem;
+}
+.Si_nav3 {
+  display: flex;
+  gap: 3rem;
+  justify-content:center ;
+  align-items: center;
+  margin-left: 2rem;
+}
+.Form_3{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+#header3_left{
+  width: 50%;
+  padding:0rem 6rem;
+  padding-top: 2rem;
+}
+.input_3{
+   width: 350px;
+   height: 2.6rem;
+   border-radius: 100px;
+   border: 1.5px solid rgb(179, 175, 175);
+   outline: none;
+}
+.Submit_3 {
+  width: 350px;
+  height: 2.6rem;
+  border-radius: 100px;
+  border: 1.5px solid rgb(179, 175, 175);
+  background-color:#25DAC5;
+}
+.form_Matter {
+  font-size: 12px;
+  color: #25DAC5;
+  margin-left: 2.2rem;
+  margin-top: 1rem;  /* Adjust this value to decrease or increase the size as needed */
+}
+.header3_right{
+  display: flex;
+  flex-direction: column;
+  width:50% ;
+  padding: 2rem 6rem;
+  gap: 2rem;
+  position: relative;
+  z-index: 3;
+}
+#header3_image{
+   width: 100%;
+}
+.header3_script{
+  line-height: 1.7;
+  width: 70%;
+  color: #25DAC5;
+}
+/* Heere started Header4 */
+#header_4{
+  width: 100%;
+  height: 100vh;
+}
+#play-icon{
+  width: 10%;
+  position: absolute;
+  left: 45%;
+  top: 28%;
+}
+#Si_nav4{
+  width: 50%;
+}
+#Si_nav4 i {
+  margin-right: 25px;
+}
+#header4_image{
+  width: 45%;
+  margin-left: 23rem;
+  margin-top: 2rem;
+ 
+}
+#header_5{
+  width: 100%;
+}
+.Title_4{
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 0rem 4rem;
+  width: 60%;
+  color: #151439;
+  margin-left: 17rem;
+}
+.nav_5{
+  display: flex;
+  margin-left: 7rem;
+  gap: 30rem;
+  padding: 3rem 0rem;
+}
+#Si_nav5{
+  gap: 2.5rem;
+  color: #292766;
+}
+#Get_started{
+  width: 8rem;
+  height: 2.4rem;
+  border-radius: 100px;
+  border: none;
+  background-color:#25DAC5;
+  color: white;
+  margin-top: 1rem;
+}
+.Title_5{
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 0rem 5rem;
+  width: 60%;
+  color:#1E0E62;
+  margin-left: 17rem;
+}
+#Content_5_div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   margin-top: 1rem;
+}
+#header5_image{
+   width: 65%;
+}
+#header5_footer{
+   width: 100%;
+}
+.footer5_content{
+   padding: 0rem 2rem;
+}
+.header5_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 3rem 1rem;
+
+}
+
+.footer5_content {
+  line-height: 1.5; 
+  height: 5rem;
+  padding: 0rem 3.7rem;
+  color:#25DAC5; 
+}
+.divider {
+  width: 2px;  /* Width of the vertical line */
+  height: 15vh;  
+  background-color:#ceede9; 
+  margin: 0 1rem;  
+}
+#header_6 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('Images/Image (1).svg');
+  background-size: cover; /* This makes the image cover the entire element */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.Title_6{
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0rem 23rem;
+}
+.header_6_Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+#play-icon2{
+  width: 4%;
+}
+/* Container */
+#header_7 {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: stretch; /* Makes sure all children stretch to full height */
+}
+
+/* Left Navigation */
+#nav_7 {
+  flex: 0 0 60%; /* This sets the flex-grow to 0, flex-shrink to 0, and flex-basis to 60% */
+  display: flex;
+  flex-direction: column; /* This makes the content inside nav_7 stack vertically */
+}
+#Nav_left {
+  display: flex;
+  padding: 4rem 0rem;
+  margin-left: 2rem;
+}
+/* Right Image */
+#header7_image {
+  flex: 0 0 40%; 
+  object-fit: cover;
+  height: 100%; 
+}
+.Si_nav3{
+  margin-left: 3rem;
+}
+#Body7{
+  padding: 1rem 10rem;
+}
+.Title_7{
+   font-size: 2.6rem;
+   color: #1E0E62;
+}
+#buttons_7 {
+  display: flex;        /* Aligns items in a row */
+  gap: 1rem;            /* Provides space between the buttons */
+  margin-top: 2rem;     /* Adds space at the top */
+}
+#header_8{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Images/Image (2).svg');
+  background-size: cover; /* This makes the image cover the entire element */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-color: rgba(62, 7, 129, 0.5);
+}
+.nav8_center_div{
+  display: flex;
+  gap: 4rem;
+  margin-left: 20rem;
+}
+.corosal {
+  display: flex;             /* Align items in a row */
+  gap: 1rem;                 /* Space between each circle */
+  justify-content: center;   /* Center align the circles horizontally */
+  align-items: center;       /* Center align the circles vertically */
+  height: 50px;              /* This can be adjusted based on your requirements */
+}
+.corosal span {
+  display: block;
+  width: 10px;               /* Diameter of the circle */
+  height: 10px;
+  background-color: transparent;   /* Color of the circle */
+  border-radius: 50%;        /* Makes the square shape into a circle */
+  cursor: pointer;    
+  border: 1px solid white;
+}
+.corosal span:hover {
+  background-color: rgb(248, 251, 251);    /* Color change on hover, optional */
+}
+#header_9{
+  padding: 0rem 9rem;
+  height: 100vh;
+}
+.nav_9,.Si_nav9{
+    
+      display: flex;
+      gap: 2rem;
+      padding: 1.4rem 0rem;
+      justify-content: center;
+      align-items: center;
+}
+.nav_9{
+   gap: 32rem;
+   color: #1E0E62;
+}
+.button9{
+  width: 5rem;
+  height: 2rem;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid rgb(233, 230, 230);
+  color: #1E0E62;
+}
+.header_9_Body {
+  display: flex;             /* Enables flexbox model */
+  justify-content: space-between;   /* Maximizes space between content and image */
+  align-items: center;       /* Vertically centers the child elements */
+}
+
+#header9_left {
+  flex: 1;  
+  padding-right: 12rem; 
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   color: #1E0E62;
+}
+
+.header9_right {
+  flex-basis: auto;          /* This allows the image container to size based on the image's intrinsic size */
+}
+
+#header9_image {
+  max-width: 85%;           /* Ensures the image doesn't overflow its container */
+  display: block; 
+  margin-top: 2rem; 
+  margin-left: 3rem;        /* Removes default spacing below the image */
+}
+.Title_9{
+  font-size: 2.8rem;
+}
+.header_10_Body{
+    padding: 0rem 4rem;
+    color: white;
+}
+#header_10{
+  background-color: #2F1893;
+}
+.Title_10{
+  padding: 0rem 19rem;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.2;
+}
+.Para_10{
+  padding: 0rem 20rem;
+  text-align: center;
+   font-weight: normal;
+   margin-top: 2rem;
+}
+.content_10{
+  display: flex;
+  width: 60%;
+  margin-left: 17rem;
+  margin-top: 5rem;
+}
+#header10_image{
+   width: 50%;
+}
+.header10{
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 2rem;
+  line-height: 1.5;
+}
+#header11_image{
+  width: 70%;
+  margin-top: 2rem;
+}
+.buttons_11{
+   display:flex;
+}
+#body_12{
+  width: 30%;           /* Sets the width to 45% of its container */
+  padding-top: 10rem; 
+  padding: 6rem 2rem; 
+  gap: 2rem;
+  margin-left: 0rem;
+  /* Adds spacing on the top */
+}
+.Para_12{
+  font-weight: normal;
+}
+.Title_12,.Para_12,.Send_2{
+  margin-top: 1rem;
+}
+#header_12{
+  display: flex;
+}
+.image1{
+  position: relative;
+  z-index: 3;
+}
+.image2{
+  position: absolute;
+  right: 10rem;
+}
+#header_13{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Images/Image (4).svg');
+  background-size: cover; /* This makes the image cover the entire element */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-color: rgba(7, 2, 14, 0.5);
+}
+.Title_13{
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 0rem 25rem;
+  color: white;
+  /* line-height: 2; */
+  margin-top: 2rem;
+}
+.Para_13{
+  text-align: center;
+  padding: 0rem 28rem;
+  font-weight: normal;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+#header_14{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #2F1893;  ;
+}
+#Body_14{
+display: flex;
+}
+#body_14{
+  color: white;
+  width: 60%;
+  padding-right: 15rem;
+  margin-left: 10rem;
+}
+.Para_14{
+  /* padding-right: 4rem; */
+  font-weight: normal;
+  margin-top: 1rem;
+  line-height: 2;
+}
+.Title_14{
+    font-size: 2.5rem;
+    /* padding-right: 4rem; */
+}
+.form_14{
+  padding-top: 1rem;
+  width: 42%;
+  height: 70vh;
+  background-color: white;
+  margin-right: 12rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #1E0E62;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+.input_14{
+  width: 70%;
+  height: 2.2rem;
+  border-radius: 10px;
+  border: 2px solid rgb(192, 188, 188);
+  outline: none;
+}
+.line-text{
+  display: flex;
+}
+hr {
+  width: 70%; /* Full width of its container */
+  height: 1px; /* Set a specific height for the line */
+  background-color: rgb(230, 224, 224); /* Color of the line */
+  border: none; /* Remove any border */
+  margin-top: 5px;
+  position: absolute;
+  bottom: 39.5%;
+   /* Space between the text and the line */
+}
+.Title_15{
+  color:#1E0E62;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0rem 25rem;
+}
+.Para_15{
+  text-align: center;
+  padding: 0rem 26rem;
+  font-weight: normal;
+  color:#a09fb4;
+  margin-top: 1rem;
+}
+#header_15{
+  /* height: 100vh; */
+  width: 100%;
+  /* background-color: red; */
+}
+#footer15_content {
+    display: flex;        /* Use flex layout */
+    justify-content: space-between;   /* Space out the two columns */
+    align-items: center;  /* Vertically center the contents */
+    /* gap: 20px;  */
+    flex-direction: column;
+    padding: 0rem 1rem   ;
+    margin-top: 2rem;
+    margin-bottom: 4rem;         Add some gap between the columns
+}
+
+.column {
+    padding: 0rem 6rem;
+    align-items: center;
+    color: #9998af;
+  }
+.header15_footer{
+  display: flex;
+  width: 100%;
+}
+#header_16{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Images/Image.png');
+  background-size: cover; /* This makes the image cover the entire element */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-color: rgba(0, 0, 18, 0.5);
+  position: relative;
+}
+
+#header16_image{
+  max-width: 35%;
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+}
+.Title_16{
+  color: white;
+  font-size: 3rem;
+  padding: 0rem 2rem;
+  /* text-align: center; */
+}
+.Content_16{
+  width: 38%;
+  margin-left: 8rem;
+
+}
+.Para_16{
+  padding: 0rem 2rem;
+  margin-top: 2rem;
+  color: white;
+  font-weight: normal;
+}
+#html_div{
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  color: white;
+  gap: 3rem;
+  margin-left: 10rem;
+}
+.Html{
+  width: 15%;
+}
+#p_16{
+  margin-top: 1rem;
+  font-weight: normal;
+}
+.img_16{
+  width: 20%;
+  margin-bottom: 1rem;
+}
+.image_17{
+  width: 50%;
+  margin-left: 20rem;
+  margin-top: 1rem;
+}
+#button_18{
+  display: flex;
+  gap: 1.5rem;
+}
+#header_18{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Images/Image (5).svg');
+  background-size: cover; /* This makes the image cover the entire element */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-color: rgba(39, 39, 220, 0.5);
+  position: relative;
+}
+#header_21{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Images/Image (6).svg');
+  background-size: cover; /* This makes the image cover the entire element */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-color: rgba(4, 4, 181, 0.5);
+  position: relative;
+}
+#div1{
+  width: 50%;
+  gap: 2rem;
+}
+.content_21{
+  display: flex;
+ gap: 2rem;
+ color: white;
+ margin-left: 5rem;
+ margin-top: 3rem;
+}
+#header_22{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Images/Background.png');
+  background-size: cover; /* This makes the image cover the entire element */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-color: rgba(0, 0, 12, 0.5);
+  position: relative;
+}
+#inputs_22{
+  display: flex;
+  width: 90%;
+  /* background-color: red; */
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.content_22{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+#Input_222{
+    width: 18rem;
+    height: 3rem;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid rgb(148, 144, 144) ;
+    outline: none;
+    }
+#Input_button{
+   height: 3.5;
+   width: 6rem;
+}
+#Icons_22{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
